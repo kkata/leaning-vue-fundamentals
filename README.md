@@ -1,8 +1,8 @@
 # vue3-fundamental
 
-## CodePen
-
 Learning Vue 3 in [Learn Vue 3 in this Introduction to Vue\.js Course by Core Vue Team Member, Sarah Drasner](https://frontendmasters.com/courses/vue-3/).
+
+## CodePen
 
 [v-model](https://codepen.io/kkata/pen/Exyrwry)
 
