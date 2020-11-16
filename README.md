@@ -1,6 +1,9 @@
-# vue-fundamentals
+# learning-vue-fundamentals
 
 Learning Vue 3 in [Learn Vue 3 in this Introduction to Vue\.js Course by Core Vue Team Member, Sarah Drasner](https://frontendmasters.com/courses/vue-3/).
+
+## Setup
+- [Vue3\.0でChrome Vue\.js devtoolsを有効にする \- Qiita](https://qiita.com/yosaprog/items/b1305b3e607272e70958)
 
 ## CodePen
 
@@ -11,6 +14,8 @@ Learning Vue 3 in [Learn Vue 3 in this Introduction to Vue\.js Course by Core Vu
 - [Methods and Computed Exercise](https://codepen.io/kkata/pen/XWKOzOz)
 - [filter at Vue2](https://codepen.io/kkata/pen/KKMJJGY)
 - [filter at Vue3: use computed](https://codepen.io/kkata/pen/PozVVxe)
+- [Watcher Exercise Problem](https://codepen.io/kkata/pen/qBNvRPP)
+- [components exercise problem](https://codepen.io/kkata/pen/eYzXvPK)
 
 ---
 
@@ -27,3 +32,9 @@ Reactive programming is programming with asynchronous data streams.
 - [vue\-next/packages/reactivity at master · vuejs/vue\-next](https://github.com/vuejs/vue-next/tree/master/packages/reactivity)
 - [Vue 3 Reactivity \- Vue 3 Reactivity \| Vue Mastery](https://www.vuemastery.com/courses/vue-3-reactivity/vue3-reactivity/)
 - [きたるべきvue\-nextのコアを理解する \- Qiita](https://qiita.com/neutron63zf/items/506c7493a53cea44860e)
+
+---
+
+## Watchers
+### References
+- [Akryum/vue\-virtual\-scroller: ⚡️ Blazing fast scrolling for any amount of data](https://github.com/Akryum/vue-virtual-scroller)
