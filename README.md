@@ -4,6 +4,8 @@ Learning Vue 3 in [Learn Vue 3 in this Introduction to Vue\.js Course by Core Vu
 
 ## Setup
 - [Vue3\.0でChrome Vue\.js devtoolsを有効にする \- Qiita](https://qiita.com/yosaprog/items/b1305b3e607272e70958)
+- [Codopen \- Chrome ウェブストア](https://chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak)
+- [Vetur \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
 ## CodePen
 
@@ -38,3 +40,17 @@ Reactive programming is programming with asynchronous data streams.
 ## Watchers
 ### References
 - [Akryum/vue\-virtual\-scroller: ⚡️ Blazing fast scrolling for any amount of data](https://github.com/Akryum/vue-virtual-scroller)
+
+---
+
+## App development
+
+### References
+- [What does the 'h' stand for in Vue's render method? \| CSS\-Tricks](https://css-tricks.com/what-does-the-h-stand-for-in-vues-render-method/)
+
+### Lifecycle Hooks
+- [beforeUnmount](https://v3.vuejs.org/api/options-lifecycle-hooks.html#beforeunmount) was beforeDestroy v2
+- [unmounted](https://v3.vuejs.org/api/options-lifecycle-hooks.html#unmounted) was destroyed v2
+- [errorCaptured](https://v3.vuejs.org/api/options-lifecycle-hooks.html#errorcaptured) new! v3
+- [renderTracked](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked) new! v3
+- [renderTriggered](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertriggered) new! v3
