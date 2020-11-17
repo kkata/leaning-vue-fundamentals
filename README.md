@@ -18,6 +18,7 @@ Learning Vue 3 in [Learn Vue 3 in this Introduction to Vue\.js Course by Core Vu
 - [filter at Vue3: use computed](https://codepen.io/kkata/pen/PozVVxe)
 - [Watcher Exercise Problem](https://codepen.io/kkata/pen/qBNvRPP)
 - [components exercise problem](https://codepen.io/kkata/pen/eYzXvPK)
+- [Ball Bouncing Exercise, v3](https://codepen.io/kkata/pen/YzWgbzP)
 
 ---
 
@@ -55,10 +56,21 @@ Reactive programming is programming with asynchronous data streams.
 - [renderTracked](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked) new! v3
 - [renderTriggered](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertriggered) new! v3
 
----
-
 Vue CLIをグローバルインストールせずにプロジェクトを作るコマンド
 
 ```
 npx @vue/cli create vue-cli-exercise
 ```
+
+---
+
+## Animating with JavaScript
+
+```
+<transition
+  ...
+  :css="false">
+</transtion>
+```
+
+- [netlify/million\-devs: Microsite for the 1 Million Developers announcement\.](https://github.com/netlify/million-devs) - Scroll SVG animations with Vuex 
