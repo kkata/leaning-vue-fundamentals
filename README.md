@@ -54,3 +54,11 @@ Reactive programming is programming with asynchronous data streams.
 - [errorCaptured](https://v3.vuejs.org/api/options-lifecycle-hooks.html#errorcaptured) new! v3
 - [renderTracked](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked) new! v3
 - [renderTriggered](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertriggered) new! v3
+
+---
+
+Vue CLIをグローバルインストールせずにプロジェクトを作るコマンド
+
+```
+npx @vue/cli create vue-cli-exercise
+```
