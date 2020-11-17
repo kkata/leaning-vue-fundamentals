@@ -3,7 +3,8 @@
 Learning Vue 3 in [Learn Vue 3 in this Introduction to Vue\.js Course by Core Vue Team Member, Sarah Drasner](https://frontendmasters.com/courses/vue-3/).
 
 ## Setup
-- [Vue3\.0でChrome Vue\.js devtoolsを有効にする \- Qiita](https://qiita.com/yosaprog/items/b1305b3e607272e70958)
+
+- [Vue3\.0 で Chrome Vue\.js devtools を有効にする \- Qiita](https://qiita.com/yosaprog/items/b1305b3e607272e70958)
 - [Codopen \- Chrome ウェブストア](https://chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak)
 - [Vetur \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
@@ -34,12 +35,14 @@ Reactive programming is programming with asynchronous data streams.
 - [Reflect \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
 - [vue\-next/packages/reactivity at master · vuejs/vue\-next](https://github.com/vuejs/vue-next/tree/master/packages/reactivity)
 - [Vue 3 Reactivity \- Vue 3 Reactivity \| Vue Mastery](https://www.vuemastery.com/courses/vue-3-reactivity/vue3-reactivity/)
-- [きたるべきvue\-nextのコアを理解する \- Qiita](https://qiita.com/neutron63zf/items/506c7493a53cea44860e)
+- [きたるべき vue\-next のコアを理解する \- Qiita](https://qiita.com/neutron63zf/items/506c7493a53cea44860e)
 
 ---
 
 ## Watchers
+
 ### References
+
 - [Akryum/vue\-virtual\-scroller: ⚡️ Blazing fast scrolling for any amount of data](https://github.com/Akryum/vue-virtual-scroller)
 
 ---
@@ -47,16 +50,18 @@ Reactive programming is programming with asynchronous data streams.
 ## App development
 
 ### References
+
 - [What does the 'h' stand for in Vue's render method? \| CSS\-Tricks](https://css-tricks.com/what-does-the-h-stand-for-in-vues-render-method/)
 
 ### Lifecycle Hooks
+
 - [beforeUnmount](https://v3.vuejs.org/api/options-lifecycle-hooks.html#beforeunmount) was beforeDestroy v2
 - [unmounted](https://v3.vuejs.org/api/options-lifecycle-hooks.html#unmounted) was destroyed v2
 - [errorCaptured](https://v3.vuejs.org/api/options-lifecycle-hooks.html#errorcaptured) new! v3
 - [renderTracked](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked) new! v3
 - [renderTriggered](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertriggered) new! v3
 
-Vue CLIをグローバルインストールせずにプロジェクトを作るコマンド
+Vue CLI をグローバルインストールせずにプロジェクトを作るコマンド
 
 ```
 npx @vue/cli create vue-cli-exercise
@@ -73,4 +78,6 @@ npx @vue/cli create vue-cli-exercise
 </transtion>
 ```
 
-- [netlify/million\-devs: Microsite for the 1 Million Developers announcement\.](https://github.com/netlify/million-devs) - Scroll SVG animations with Vuex 
+- [netlify/million\-devs: Microsite for the 1 Million Developers announcement\.](https://github.com/netlify/million-devs) - Scroll SVG animations with Vuex
+
+- [sdras/page\-transitions\-travelapp: Travel App, Native\-like Page Transitions](https://github.com/sdras/page-transitions-travelapp) - Nuxt.js page transitions
