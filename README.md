@@ -2,6 +2,8 @@
 
 Learning Vue 3 in [Learn Vue 3 in this Introduction to Vue\.js Course by Core Vue Team Member, Sarah Drasner](https://frontendmasters.com/courses/vue-3/).
 
+Vue is a collection of the best of the best.
+
 ## Setup
 
 - [Vue3\.0 で Chrome Vue\.js devtools を有効にする \- Qiita](https://qiita.com/yosaprog/items/b1305b3e607272e70958)
@@ -99,3 +101,57 @@ The Composition API was build off of Teact hooks. So if you're familiar with Tea
 
 - [Introduction \| Vue\.js](https://v3.vuejs.org/guide/composition-api-introduction.html)
 - [Docs \- Read Me ⋅ Storybook](https://vueuse.js.org/?path=/story/docs--read-me)
+
+## Vuex
+
+### setup store
+
+classic mode style?
+
+```js
+import Vue from "vue";
+import Vuex from "vuex";
+
+Vue.use(Vuex);
+
+export default new Vuex.Store({
+  state: {},
+  mutations: {},
+  actions: {},
+  modules: {},
+});
+```
+
+nuxt style?
+
+```js
+export const state = () => ({
+  value: "myvalue",
+});
+
+export const getters = {
+  getterValue: (state) => {
+    return state.value;
+  },
+};
+
+export const mutations = {
+  updateValue: (state, payload) => {
+    state.value = payload;
+  },
+};
+
+export const actions = {
+  updateActionValue({ commit }) {
+    commit("updateValue", payload);
+  },
+};
+```
+
+- [sdras/ecommerce\-netlify: 🛍 A JAMstack Ecommerce Site built with Nuxt and Netlify Functions](https://github.com/sdras/ecommerce-netlify)
+
+- [What is Vuex? \| Vuex](https://next.vuex.vuejs.org/) - Vue 3 needs Vuex 4
+
+---
+
+- [vuejs/awesome\-vue: 🎉 A curated list of awesome things related to Vue\.js](https://github.com/vuejs/awesome-vue)
