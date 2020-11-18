@@ -20,6 +20,8 @@ Learning Vue 3 in [Learn Vue 3 in this Introduction to Vue\.js Course by Core Vu
 - [Watcher Exercise Problem](https://codepen.io/kkata/pen/qBNvRPP)
 - [components exercise problem](https://codepen.io/kkata/pen/eYzXvPK)
 - [Ball Bouncing Exercise, v3](https://codepen.io/kkata/pen/YzWgbzP)
+- [Vue3 Composition API: by Vue Mastery](https://codepen.io/kkata/pen/mdEgLqY)
+- [Composition API Exercise](https://codepen.io/kkata/pen/MWeRGdr)
 
 ---
 
@@ -29,12 +31,13 @@ Reactive programming is programming with asynchronous data streams.
 
 ### References
 
+- [Vue 3 Reactivity \- Vue 3 Reactivity \| Vue Mastery](https://www.vuemastery.com/courses/vue-3-reactivity/vue3-reactivity/)
+
 - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [Proxy \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
 - [メタプログラミング \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Meta_programming)
 - [Reflect \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
 - [vue\-next/packages/reactivity at master · vuejs/vue\-next](https://github.com/vuejs/vue-next/tree/master/packages/reactivity)
-- [Vue 3 Reactivity \- Vue 3 Reactivity \| Vue Mastery](https://www.vuemastery.com/courses/vue-3-reactivity/vue3-reactivity/)
 - [きたるべき vue\-next のコアを理解する \- Qiita](https://qiita.com/neutron63zf/items/506c7493a53cea44860e)
 
 ---
@@ -81,3 +84,18 @@ npx @vue/cli create vue-cli-exercise
 - [netlify/million\-devs: Microsite for the 1 Million Developers announcement\.](https://github.com/netlify/million-devs) - Scroll SVG animations with Vuex
 
 - [sdras/page\-transitions\-travelapp: Travel App, Native\-like Page Transitions](https://github.com/sdras/page-transitions-travelapp) - Nuxt.js page transitions
+
+---
+
+## Composition API
+
+The Composition API was build off of Teact hooks. So if you're familiar with Teact hooks, you will feel very at home.
+
+### Intro
+
+- [Why the Composition API \- Vue 3 Composition API \| Vue Mastery](https://www.vuemastery.com/courses/vue-3-essentials/why-the-composition-api/)
+
+### References
+
+- [Introduction \| Vue\.js](https://v3.vuejs.org/guide/composition-api-introduction.html)
+- [Docs \- Read Me ⋅ Storybook](https://vueuse.js.org/?path=/story/docs--read-me)
