@@ -13,6 +13,7 @@ const routes = [
     path: "/locations-from-api",
     name: "LocationsFromAPI",
     component: LocationsFromAPI,
+    props: (route) => ({ page: parseInt(route.query.page) || 1 }), // if page exists parse the string to an integer, otherwise return 1
   },
   {
     path: "/about",

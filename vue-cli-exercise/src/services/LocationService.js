@@ -10,7 +10,10 @@ const apiClient = axios.create({
 });
 
 export default {
-  getEvent() {
-    return apiClient.get("locations");
+  getLocations(perPage, page) {
+    return apiClient.get("/locations?_limit=" + perPage + "&_page=" + page);
+  },
+  getLocation(id) {
+    return apiClient.get("/locations/" + id);
   },
 };
