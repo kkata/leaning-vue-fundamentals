@@ -72,6 +72,12 @@ Vue CLI をグローバルインストールせずにプロジェクトを作る
 npx @vue/cli create vue-cli-exercise
 ```
 
+Vue UI
+
+```
+npx @vue/cli ui
+```
+
 ---
 
 ## Animating with JavaScript
