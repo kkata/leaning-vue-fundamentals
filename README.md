@@ -97,7 +97,7 @@ npx @vue/cli ui
 
 ## Composition API
 
-The Composition API was build off of Teact hooks. So if you're familiar with Teact hooks, you will feel very at home.
+The Composition API was build off of React hooks. So if you're familiar with React hooks, you will feel very at home.
 
 ### Intro
 
